@@ -1,0 +1,25 @@
+{
+  "name": "becausecode/testify",
+  "description": "A wrapper for php-webdriver",
+  "keywords": ["webdriver", "selenium", "php"],
+  "homepage": "https://github.com/BecauseCode/testify",
+  "type": "library",
+  "license": "MIT",
+   "authors": [{
+            "name": "Chris Brady",
+            "email": "cbrady@becauseco.de",
+            "homepage": "http://becauseco.de"
+         }]
+  "support": {
+    "issues": "https://github.com/BecauseCode/testify/issues",
+    "source": "https://github.com/BecauseCode/testify/issues"
+  },
+  "require": {
+    "php": ">=5.3.19"
+  },
+  "autoload": {
+    "psr-4": {
+      "BecauseCode\\": "src/"
+    }
+  }
+}
