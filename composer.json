@@ -15,11 +15,13 @@
     "source": "https://github.com/BecauseCode/testify/issues"
   },
   "require": {
-    "php": ">=5.3.19"
+    "php": ">=5.3.19",
+    "facebook/webdriver": "dev-master",
+    "phpunit/phpunit": "*"
   },
   "autoload": {
     "psr-4": {
-      "BecauseCode\\": "src/"
+      "BecauseCode\\Testify\\": "srcs"
     }
   }
 }
